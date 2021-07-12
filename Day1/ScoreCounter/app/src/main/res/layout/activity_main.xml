@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/nameA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="100px"
+        android:text="@string/saltyfish_xuan"
+        android:textColor="@color/teal_200"
+        android:textSize="24sp"
+        app:layout_constraintLeft_toRightOf="@id/iconA"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iconA"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_marginTop="50dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/nameA"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/my_icon" />
+
+    <ImageView
+        android:id="@+id/iconA2"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_marginTop="44dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/nameA"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox1"
+        app:srcCompat="@drawable/my_icon" />
+
+    <TextView
+        android:id="@+id/scoreA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="0"
+        android:textColor="@color/teal_200"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/scoreB"
+        app:layout_constraintTop_toBottomOf="@id/iconA" />
+
+    <TextView
+        android:id="@+id/scoreB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="0"
+        android:textColor="@color/orange"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toRightOf="@id/scoreA"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iconA" />
+
+    <TextView
+        android:id="@+id/nameB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/saltyfish_xuan"
+        android:textColor="@color/orange"
+        android:textSize="24sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/iconB"
+        app:layout_constraintTop_toBottomOf="@id/scoreB" />
+
+    <ImageView
+        android:id="@+id/iconB"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="100px"
+        app:layout_constraintLeft_toRightOf="@id/nameB"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/scoreB"
+        app:srcCompat="@drawable/another_icon" />
+
+    <ImageView
+        android:id="@+id/iconB2"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_marginTop="296dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginRight="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/scoreB"
+        app:srcCompat="@drawable/another_icon" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:buttonTint="@color/teal_200"
+        android:text="@string/task_for_a"
+        android:textColor="@color/teal_200"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/checkBox2"
+        app:layout_constraintTop_toBottomOf="@id/iconB"
+        android:layout_marginEnd="20dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:buttonTint="@color/orange"
+        android:text="@string/task_for_b"
+        android:textColor="@color/orange"
+        app:layout_constraintLeft_toRightOf="@id/checkBox1"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iconB"
+        android:layout_marginEnd="20dp" />
+
+    <Button
+        android:id="@+id/buttonA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="@color/teal_200"
+        android:text="A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/iconB"
+        android:layout_marginEnd="50dp" />
+
+    <Button
+        android:id="@+id/buttonB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="@color/orange"
+        android:text="@string/b"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/iconA"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="50dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="200dp"
+        android:layout_height="13dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/iconA2"
+        app:layout_constraintTop_toBottomOf="@id/checkBox1"
+        android:max="15"
+        android:progress="0"
+        android:progressDrawable="@drawable/bar_color_a"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="200dp"
+        android:layout_height="13dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:max="15"
+        android:progress="0"
+        app:layout_constraintEnd_toStartOf="@id/iconB2"
+        app:layout_constraintHorizontal_bias="0.958"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox1"
+        android:progressDrawable="@drawable/bar_color_b"
+        android:visibility="visible"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

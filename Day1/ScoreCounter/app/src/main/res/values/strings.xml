@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My App!</string>
+    <string name="saltyfish_xuan">SaltyFish Xuan</string>
+    <string name="task_for_a">Task For A</string>
+    <string name="task_for_b">Task For B</string>
+    <string name="b">B</string>
+</resources>

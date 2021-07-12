@@ -1,2 +1,2 @@
-# AndroidProjs
-2021 夏 Android 开发实训课程 by
+# Android 开发实训 作业仓库
+解雲暄 3190105871

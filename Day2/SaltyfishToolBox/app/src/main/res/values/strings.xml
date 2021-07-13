@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">咸鱼工具箱</string>
+    <string name="saltyfish_xuan">SaltyFish Xuan</string>
+    <string name="task_for_a">Task For A</string>
+    <string name="task_for_b">Task For B</string>
+    <string name="b">B</string>
+    <string name="_0">0</string>
+    <string name="scrCnter">计分器</string>
+    <string name="webSite">常用网站</string>
+    <string name="honorList">成就墙</string>
+    <string name="chuan_lover">串串热爱者</string>
+    <string name="chuan_lover_eng">CHUAN LOVER</string>
+</resources>

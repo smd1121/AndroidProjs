@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.android.support:loader:28.0.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1981ef02a80dcf8f65e6cde39aab9295/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1981ef02a80dcf8f65e6cde39aab9295/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1981ef02a80dcf8f65e6cde39aab9295/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e2e2973715591cc2d59a401bdf46043c/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e2e2973715591cc2d59a401bdf46043c/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e2e2973715591cc2d59a401bdf46043c/AndroidManifest.xml" />
+      <root url="jar://D:/Software/gradle-5.1.1-all/gradle-5.1.1/caches/transforms-2/files-2.1/a5673fc985212845e680a2d17038b3da/jars/classes.jar!/" />
+      <root url="file://D:/Software/gradle-5.1.1-all/gradle-5.1.1/caches/transforms-2/files-2.1/a5673fc985212845e680a2d17038b3da/AndroidManifest.xml" />
+      <root url="file://D:/Software/gradle-5.1.1-all/gradle-5.1.1/caches/transforms-2/files-2.1/a5673fc985212845e680a2d17038b3da/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

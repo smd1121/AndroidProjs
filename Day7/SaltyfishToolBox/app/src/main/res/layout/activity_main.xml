@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main_bg"
+    >
+
+    <TextView
+        android:id="@+id/boxTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20pt"
+        />
+
+    <RelativeLayout
+        android:id="@+id/icons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/boxTitle"
+        >
+        <ImageView
+            android:id="@+id/icon_my"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/my_icon_trans"
+            />
+
+        <ImageView
+            android:id="@+id/icon_chuan"
+            android:layout_marginTop="20dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/chuan1"
+            android:layout_toRightOf="@id/icon_my"
+            android:layout_centerHorizontal="true"
+            />
+    </RelativeLayout>
+
+    <Button
+        android:background="@drawable/main_button_style"
+        android:id="@+id/toScrCntr"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/scrCnter"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/icons"
+        android:layout_marginTop="50dp"
+        />
+
+    <Button
+        android:background="@drawable/main_button_style"
+        android:id="@+id/toWebList"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/webSite"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/toScrCntr"
+        android:layout_marginTop="50dp"
+        />
+
+    <Button
+        android:background="@drawable/main_button_style"
+        android:id="@+id/toHonor"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/honorList"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/toWebList"
+        android:layout_marginTop="50dp"
+        />
+
+    <Button
+        android:background="@drawable/main_button_style"
+        android:id="@+id/toMedia"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/media"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/toHonor"
+        android:layout_marginTop="50dp"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toMedia"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/teal_200"
+        android:gravity="center"
+        android:text="↑\n第 7 课作业在这里" />
+</RelativeLayout>
